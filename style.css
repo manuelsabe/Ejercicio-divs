@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+body{
+    background-image: url(/image/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    width: 300px;
+    height: 150px;
+}
+.contenedor-uno{
+    color: white;
+    border: 4px solid #FB7A32;
+    padding: 10px; 
+    margin: 15px auto;
+    width: 350px;
+    height: 350px;
+    box-shadow: 10px 10px 20px orange;
+    border-radius: 20px;
+    place-items: center;
+    font-family: "Marcellus", serif;
+    text-shadow: 2px 2px 2px red;
+}
+.contenedor-dos{
+    color: white;
+    border: 4px solid black;
+    padding: 10px; 
+    margin: 20px auto;
+    width: 320px;      
+    height: 320px;
+    box-shadow: 10px 10px 20px white;
+    border-radius: 40px;
+    place-items: center;
+    font-family: "Marcellus", serif;
+    text-shadow: 2px 2px 2px black;
+}
+.contenedor-tres{
+    color: white;
+    border: 4px solid #091349;
+    padding: 2%; 
+    margin: 20px auto;
+    width: 20%;      /*Al realizarlo con "%", el contenedor se va adaptando al tamaño de la pantalla. Para que la imagen, el titulo y el parrafo cumplan el mismo funcionamiento (y que no salgan del div) desarrolle los tamaños con unidades de medida relativas: "%" (imagen) y "vw" (h3, p)*/
+    height: 20%;
+    box-shadow: 10px 10px 20px #90ABE7;
+    border-radius: 80px;
+    place-items: center;
+    font-family: "Marcellus", serif;
+    font-size: 1.2vw;
+    text-shadow: 2px 2px 2px blue;
+}
+.imagen-porcen{
+    width: 100%;
+    height: 100%;
+}
+p{
+    font-weight: 800;
+    text-shadow: 2px 2px 2px black;
+}
